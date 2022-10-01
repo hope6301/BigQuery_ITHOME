@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Bigquery_ITHOME.iml" filepath="$PROJECT_DIR$/.idea/Bigquery_ITHOME.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/BigQuery_ITHOME.iml" filepath="$PROJECT_DIR$/.idea/BigQuery_ITHOME.iml" />
     </modules>
   </component>
 </project>
