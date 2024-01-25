@@ -3,7 +3,9 @@ import glob
 import os
 # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = glob.glob("*.json")[0]
 # Construct a BigQuery client object.
-client = bigquery.Client()
+# client = bigquery.Client()
+# 2024/1/25 Implementation of new project='your-project-id' can be used normally
+client = bigquery.Client(project='your-project-id')
 
 # TODO(developer): Set table_id to the ID of the table to create.
 table_id = "ithome-bq-test.tv_shows.tv_shows_dashboard"
